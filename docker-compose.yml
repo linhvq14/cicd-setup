@@ -10,9 +10,9 @@ services:
       RUNNER_SCOPE: repo
       RUNNER_NAME_PREFIX: myrunner
       LABELS: some-label
-      REPO_URL: https://github.com/linhvq14/cicd-setup
+      REPO_URL: https://github.com/linhvq14/cicd-setup.git
       EPHEMERAL: 1
-      ACCESS_TOKEN: AJS47FCSUJMTVEY3GIQU4ZLF5LWRS
+      ACCESS_TOKEN: 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
     deploy:
       replicas: 3
       resources:
