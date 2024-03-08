@@ -12,7 +12,7 @@ services:
       LABELS: some-label
       REPO_URL: https://github.com/linhvq14/cicd-setup
       EPHEMERAL: 1
-      ACCESS_TOKEN: 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
+      ACCESS_TOKEN: AJS47FD2FSLR5FGTXYZWRRDF5LV3E
     deploy:
       replicas: 3
       resources:
