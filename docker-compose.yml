@@ -16,7 +16,7 @@ services:
       RUNNER_WORKDIR: /tmp/runner/work
       ORG_RUNNER: 'false'
     deploy:
-      replicas: 3
+      replicas: 6
       resources:
         limits:
           cpus: '1'
